@@ -1,0 +1,3 @@
+= 24.08.2001 (wsxyz) =
++ Met (and killed) the Goblin King in a wilderness encounter
+  check make_country_monsters in aux2.c ?
