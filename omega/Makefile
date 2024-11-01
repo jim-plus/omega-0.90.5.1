@@ -89,7 +89,7 @@ install_not_suid: omega maps.dat $(BINDIR) $(LIBDIR)
 	chmod 0600 $(LIBDIR)/omegahi.bak
 
 clean:
-	rm -f $(OBJ) clrgen.h clrgen.c genclr.o genclr omega
+	rm -f $(OBJ) clrgen.h clrgen.c clrgen.o genclr omega
 
 distclean:
 	rm -f $(OBJ) $(CUROBJ) $(TOOLS) $(OLIBSTUFF) clrgen.h clrgen.c genclr.o genclr omega
